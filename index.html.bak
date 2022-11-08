@@ -1,0 +1,11 @@
+<html>
+       <head>
+	         <title>PHARMACY|Pharmacy Manegement System</title>
+	   </head>
+	   
+	   <body>
+	         <h1>Pharmacy Manegement System</h1>
+			 <a href="/user">Enter Records</a>
+	   </body>
+
+</html>

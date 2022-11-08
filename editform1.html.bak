@@ -1,0 +1,46 @@
+<html>
+      <head>
+	         <title>PHARMACY|FORM</title>
+	  </head>
+	  
+	  <body background="back.jpg">
+	         <h3>Create Task</h3>
+			 <form method="POST" action="/update/{{d.0}}">
+			       <table align="center" border="1">
+				          <tr>
+						       <td>Id:</td>
+							   <td><input type="text" name="Id" value="{{d.0}}"></td>
+						  </tr> 
+						   
+				          <tr>
+						       <td>Product_name:</td>
+							   <td><input type="text" name="Product_name" value="{{d.1}}"></td>
+						  </tr>
+						  
+						  <tr>
+						       <td>Mfg:</td>
+							   <td><input type="date" name="Mfg" value="{{d.2}}"></td>
+						  </tr>
+						  
+						  <tr>
+						       <td>Exp:</td>
+							   <td><input type="date" name="Exp" value="{{d.3}}"></td>
+						  </tr>
+						  
+						  <tr>
+						       <td>Price:</td>
+							   <td><input type="text" name="Price" value="{{d.4}}"></td>
+						  </tr>
+						  
+						  <tr>
+						      
+							   <td><input type="submit" name="send"></td>
+						  </tr>
+				   </table>
+			 
+			 </form>
+	  
+	  </body>
+
+
+</html>
